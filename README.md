@@ -1,2 +1,20 @@
-# ResRace
-The official code for paper “Residual Policy Learning Facilitates EfficIent Model-Free Autonomous Racing”
+# Residual Policy Learning Facilitates EfficIent Model-Free Autonomous Racing
+The official code for model-free autonomous racing algorithm ResRace. 
+
+![ResRace2](demos/montreal.gif) ![ResRace2](demos/plechaty.gif)
+
+![ResRace1](demos/barcelona.gif) 
+
+## Dependencies
+Our code has been tested on `Ubuntu 18.04` with `Python 3.6` and `Tensorflow 2.3.0`. 
+
+The simulator used in this repository is Axel Brunnbauer's [racecar_gym](github.com/axelbr/racecar_gym). 
+
+PPO and TRPO are based on [OpenAI SpinningUp](spinningup.openai.com/en/latest/) 
+
+```
+git clone https://github.com/openai/spinningup.git 
+cd spinningup 
+pip install -e . 
+pip install tensorflow==2.3.0 
+```
