@@ -1,9 +1,9 @@
 # Residual Policy Learning Facilitates EfficIent Model-Free Autonomous Racing
 The official code for model-free autonomous racing algorithm ResRace. 
 
-![ResRace2](demos/montreal.gif) ![ResRace2](demos/plechaty.gif)
+<img src="demos/montreal.gif" width="300"> <img src="demos/plechaty.gif" width="440"> 
 
-![ResRace1](demos/barcelona.gif) 
+<img src="demos/barcelona.gif" width="745"> 
 
 ## Dependencies
 Our code has been tested on `Ubuntu 18.04` with `Python 3.6` and `Tensorflow 2.3.0`. 
