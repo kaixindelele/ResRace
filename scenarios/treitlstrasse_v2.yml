@@ -1,0 +1,11 @@
+world:
+  name: treitlstrasse_v2
+agents:
+  - id: A
+    vehicle:
+      name: racecar
+      sensors: [ lidar, pose, velocity, acceleration ]
+      color: random
+    task:
+      task_name: maximize_progress
+      params: {laps: 10, time_limit: 1200.0, terminate_on_collision: False}
