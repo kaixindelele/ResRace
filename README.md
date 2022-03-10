@@ -1,4 +1,4 @@
-# Residual Policy Learning Facilitates EfficIent Model-Free Autonomous Racing
+# Residual Policy Learning Facilitates Efficient Model-Free Autonomous Racing
 The official code for model-free autonomous racing algorithm ResRace. 
 
 <img src="demos/montreal.gif" width="300"> <img src="demos/plechaty.gif" width="440"> 
